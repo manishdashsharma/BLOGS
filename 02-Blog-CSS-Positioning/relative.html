@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+        }
+        div {
+            width: 75px;
+            height: 75px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 75px;
+            color: white;
+            font-size: 24px;
+        }
+        .container {
+            background-color: #B6C7D6;
+            width: 100px;
+            height: 250px;
+        }
+        #div-1 { 
+            background-color: #FF5C35; 
+        }
+
+        #div-2 {
+            background-color: #0068B1;
+        }
+
+        #div-3 { 
+            background-color: #4FB06D; 
+        }
+        /* relative property with hover effect */
+        #div-2:hover {
+            position: relative;
+            top: -40px;
+            left: 30px;
+            background-color: #0068B1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="div-1">1</div>
+        <div id="div-2">2</div>
+        <div id="div-3">3</div>
+    </div><br>
+    <em><b>"Hover to block-2"</b><em></em>
+</body>
+</html>
